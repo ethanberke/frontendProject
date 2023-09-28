@@ -9,7 +9,20 @@ body {
     color: rgb(0, 0, 0);
     -webkit-text-stroke: .5px rgb(0, 0, 0);
     font-size: 1.25em;
+  }
 
+  .header {
+    width: 800px;
+    font-family: "Arial";
+    background-color: rgba(228, 132, 8, 0.987);
+    opacity: 50%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5px;
   }
 
   .navbar {
@@ -34,34 +47,36 @@ body {
 
 .container {
         display: none;
-        width: auto;
         font-family: "Arial";
-        background-color: rgb(127, 127, 127);
-        opacity: 100%;
-        margin: auto;
-        border-radius: 20px;
+        max-width: 55em;
+        background-color: rgba(177, 126, 5, 0.3);
         text-align: center;
         padding: 10px;
+        border-radius: 3em;
+        margin-top: 16px;
 }
 
 .container img {
-  opacity: 100%;
-  max-width:100%;
-  max-height: auto;
-  border: 10opx black;
+  opacity: 1;
+  max-width: 800px;
+  max-height: 800px;
+  border: 2px solid black;
+  margin-top: 18px;
 }
 
 p {
-    color: rgb(0, 0, 0);
-    font-size: 32px;
-    -webkit-text-stroke: .75px black; 
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 1em;
-
-    width: auto;
-    background-color: rgb(127, 127, 127);
-    opacity: 60%;
-    border-radius: 12px;
-    padding: 12px;
+  color: rgb(0, 0, 0);
+  font-size: 26px;
+  -webkit-text-stroke: .75px black;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  background-color: rgb(127, 127, 127);
+  opacity: 75%;
+  border-radius: 12px;
+  padding: 8px;
 }
