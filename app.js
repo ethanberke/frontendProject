@@ -22,7 +22,6 @@
             container.innerHTML = ''; // Clear previous content
             container.appendChild(image);
             container.appendChild(text);
-            container.appendChild(text);
         }
     });
 });
