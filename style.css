@@ -6,6 +6,10 @@ body {
     background-size: cover;
     background-color: #464646;
     text-align: center;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: .5px rgb(0, 0, 0);
+    font-size: 1.25em;
+
   }
 
   .navbar {
@@ -16,7 +20,8 @@ body {
     margin: auto;
     border-radius: 20px;
     text-align: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 5px;
   }
 
   .navbar button {
@@ -27,20 +32,36 @@ body {
     border-radius: 20px;
 }
 
-
-
 .container {
-        width: 800px;
+        display: none;
+        width: auto;
         font-family: "Arial";
-        background-color: rgb(55, 55, 55);
+        background-color: rgb(127, 127, 127);
         opacity: 100%;
         margin: auto;
         border-radius: 20px;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
+}
+
+.container img {
+  opacity: 100%;
+  max-width:100%;
+  max-height: auto;
+  border: 10opx black;
 }
 
 p {
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    -webkit-text-stroke: .75px black; 
     text-align: center;
-    margin-bottom: 1px;
+    margin-top: 10px;
+    margin-bottom: 1em;
+
+    width: auto;
+    background-color: rgb(127, 127, 127);
+    opacity: 60%;
+    border-radius: 12px;
+    padding: 12px;
 }
