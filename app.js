@@ -4,7 +4,7 @@
     const dogeSound = document.getElementById('dogeSound');
     dogeSound.play();
 
-    $.get('http://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true', function(data) {
+    $.get('https://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true', function(data) {
         if (data.length > 0) {
             const imageUrl = data[0];
             const image = document.createElement('img');
@@ -33,7 +33,7 @@ document.querySelector('.catBtn').addEventListener('click', function() {
     const catSound = document.getElementById('catSound');
     catSound.play();
 
-    $.get('http://shibe.online/api/cats?count=1&urls=true&httpsUrls=true', function(data) {
+    $.get('https://shibe.online/api/cats?count=1&urls=true&httpsUrls=true', function(data) {
         if (data.length > 0) {
             const imageUrl = data[0];
             const image = document.createElement('img');
@@ -62,7 +62,7 @@ document.querySelector('.birdBtn').addEventListener('click', function() {
     const birdSound = document.getElementById('birdSound');
     birdSound.play();
 
-    $.get('http://shibe.online/api/birds?count=1&urls=true&httpsUrls=true', function(data) {
+    $.get('https://shibe.online/api/birds?count=1&urls=true&httpsUrls=true', function(data) {
         if (data.length > 0) {
             const imageUrl = data[0];
             const image = document.createElement('img');
