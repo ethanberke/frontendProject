@@ -1,27 +1,53 @@
-This Frontend repo  is a random image generator.  There are four buttons that invoke an AJAX request to load an image of a Shiba Inu, Cat, Bird, or Fox to the DOM.  The fifth button will completely clear the container, leaving it the same way the document appears when a user first opens the page.  Clicking the same button multiple times will change the image every time, but the facts below will always stay the same.  
+````markdown
+# Random Animal Pictures
 
-Each button, with exception to the clear button, will play an MP3 of the animal that the user is accessing.
+## Overview
 
-Within each animal's fact sheet are embedded links that will take the user to websites that provide more information about that animal.
+https://wow-suchdoge.surge.sh/
 
+This simple web application allows users to generate random pictures and facts of their favorite animals. Users can choose from Doge, Cat, Bird, and Fox categories. The application is built using HTML, CSS, JavaScript, and jQuery. Random images and facts are fetched from external APIs.
 
-My motivation to do this web page was my love for these animals.  I love Shiba Inus and how they resemble foxes.  The cats and birds were easy to incorporate since they came from the same API as the Shiba Inu.  Once I had the AJAX requests working as I intended, I had the idea to add bird calls since they are one of nature's most beautiful forms of music.
+![Random Animal Pictures Screenshot](./DogeBackground.png)
 
-The following APIs were used:
+## Features
 
-https://shibe.online/api/shibes?count=1&urls=true&httpsUrls=true
-https://shibe.online/api/cats?count=1&urls=true&httpsUrls=true'
-https://shibe.online/api/birds?count=1&urls=true&httpsUrls=true'
-https://randomfox.ca/floof/
+- **Animal Selection**: Users can choose from Doge, Cat, Bird, and Fox categories.
+- **Sound Effects**: Each animal category comes with a unique sound effect.
+- **Random Images and Facts**: Fetches random images and facts about the selected animal.
 
-The following additional links were used to add more depth to the document:
+## Technologies Used
 
-https://en.wikipedia.org/wiki/Doge_(meme)
-https://www.akc.org/expert-advice/lifestyle/8-shiba-inu-facts/
-https://pbs.twimg.com/media/BqNASByIQAA9KBJ.png
-https://cvillecatcare.com/veterinary-topics101-amazing-cat-facts-fun-trivia-about-your-feline-friend//
-https://www.trvst.world/biodiversity/bird-facts
-https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcRIeLvBTy6XdFXbVmZFkxhVvHjkbWOFZiXaMiOOxR99H2lxXdoh5F95kbsC600N2TJoZA5DufquCOnVdJQ
-https://sites.psu.edu/frasscrclblog/2014/10/16/eastern-folklore-and-the-nine-tailed-fox/
-https://www.wildthingsfood.co.uk/news/10-facts-about-foxes-that-may-surprise-you/
-https://kids.nationalgeographic.com/animals/mammals/facts/red-fox'
+- **HTML:** Used for structuring the content and elements of the web pages.
+- **CSS:** Responsible for styling and layout of the web pages.
+- **JavaScript:** The primary programming language for the client-side application logic.
+- **jQuery:** Used for simplified AJAX requests to fetch data from external APIs.
+
+## How to Run
+
+1. Clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/ethanberke/random-animal-pictures
+   ```
+````
+
+2. Open the `index.html` file in a web browser.
+
+## Usage
+
+- Click on the buttons to select your favorite animal category.
+- Enjoy the sound effect and view the random image and facts about the selected animal.
+
+## Credits
+
+- Animal images and facts are fetched from [randomfox.ca](https://randomfox.ca/) and [shibe.online](https://shibe.online/).
+
+## Contact
+
+For any inquiries or feedback, please contact Ethan Berkebile via email at [ethanberkebile@gmail.com].
+
+**Thank you for exploring Random Animal Pictures!** 🐾
+
+```
+
+```
